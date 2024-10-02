@@ -23,11 +23,15 @@ wp-config.php
 # Example themes
 /wp-content/themes/twenty*/
 
-# Example plugin
+# PLugins
 /wp-content/plugins/hello.php
+/wp-content/plugins/wp-hooks-finder/
 
 # Uploads
 /wp-content/uploads/
+
+#upgrade
+/wp-content/upgrade*/
 
 # Log files
 *.log
@@ -35,14 +39,6 @@ wp-config.php
 # htaccess
 /.htaccess
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
-
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+#others
+local-xdebuginfo.php
+.DS_Store
